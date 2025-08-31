@@ -1,0 +1,169 @@
+# Use DecapBridge auth (required)
+backend:
+  name: git-gateway
+  repo: home-startnottingham/home-startnottingham.github.io
+  branch: main
+  identity_url: https://auth.decapbridge.com/sites/ae49f82a-3598-45a6-bd48-894785f0d0ce
+  gateway_url: https://gateway.decapbridge.com
+
+  # Quickly see who did what (optional)
+  commit_messages:
+    create: Create {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    update: Update {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    delete: Delete {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    uploadMedia: Upload “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    deleteMedia: Delete “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    openAuthoring: Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge
+
+# Better Decap + Bridge logo (optional)
+logo_url: https://decapbridge.com/decapcms-with-bridge.svg
+
+# Add site links in DecapCMS (optional)
+site_url: https://home-startnottingham.github.io
+
+media_folder: "/assets/img"
+public_folder: "/assets/img"
+  
+collections:
+  - name: "data"
+    label: "Data"
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "_data/navigation.yml"
+        fields:
+          - label: Menu
+            name: menu
+            widget: list
+            fields:
+              - { label: Parent, name: parent, widget: string }
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - { label: Text, name: text, widget: string }
+                  - { label: Href, name: href, widget: string }
+              
+      - label: Features
+        name: features
+        file: "_data/features.yml"
+        fields:
+          - label: Features
+            name: features
+            widget: list
+            fields:
+              - { label: Statistic, name: statistic, widget: string }
+              - { label: Description, name: description, widget: string }
+              - { label: Image, name: image, widget: string }
+          
+      - label: Impact
+        name: impact
+        file: "_data/impact.yml"
+        fields:
+          - label: Impact
+            name: impact
+            widget: list
+            fields:
+              - { label: Statistic, name: statistic, widget: string }
+              - { label: Description, name: description, widget: string }
+              - { label: Image, name: image, widget: string }
+
+      - label: Legal
+        name: legal
+        file: "_data/legal.yml"
+        fields:
+          - { label: Charity Number, name: charityNo, widget: string }
+          - { label: Company Number, name: companyNo, widget: string }
+          - { label: Address, name: address, widget: string }
+          - { label: Twitter, name: twitter, widget: string }
+          - { label: Instagram, name: instagram, widget: string }
+          - { label: Facebook, name: facebook, widget: string }
+
+  - name: "home"
+    label: "Home"
+    files:
+      - label: "Home"
+        name: "home"
+        file: "pages/index.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Permalink, name: permalink, widget: string }
+          - label: Carousel
+            name: carousel
+            widget: list
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - { label: Body, name: body, widget: text }
+              - { label: Link Text, name: linkText, widget: string }
+              - { label: Link, name: link, widget: string }
+              - { label: Image, name: image, widget: string }
+          - { label: Intro, name: intro, widget: string }
+          - { label: Body, name: body, widget: markdown }
+
+  - name: "boxedContent"
+    label: "Boxed Content Pages"
+    folder: "pages/boxedContent"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Layout, name: layout, widget: string, default: "boxed" }
+      - { label: Permalink, name: permalink, widget: string }
+      - { label: Page Image, name: pageImage, widget: string }
+      - { label: Large Boxes, name: large, widget: boolean }
+      - label: Boxed Content
+        name: boxedContent
+        widget: list
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Link, name: link, widget: string }
+          - { label: Image, name: image, widget: string }
+          - { label: Alt, name: alt, widget: string }
+          - { label: Text, name: text, widget: text }
+          - { label: Link Text, name: linkText, widget: text }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: "accordianContent"
+    label: "Accordian Content Pages"
+    folder: "pages/accordianContent"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Layout, name: layout, widget: string, default: "accordian" }
+      - { label: Permalink, name: permalink, widget: string }
+      - { label: Page Image, name: pageImage, widget: string }
+      - label: Accordian Content
+        name: accordianContent
+        widget: list
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Content, name: content, widget: string }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: "general"
+    label: "General Pages"
+    folder: "pages/general"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Layout, name: layout, widget: string, default: "default" }
+      - { label: Permalink, name: permalink, widget: string }
+      - { label: Page Image, name: pageImage, widget: string }
+      - { label: Has Impact Box, name: hasImpact, widget: boolean }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: "reports"
+    label: "Reports"
+    folder: "_reports"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime }
+      - { label: File, name: file, widget: file }
+
+  - name: "caseStudies"
+    label: "Case Studies"
+    folder: "_caseStudies"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: File, name: file, widget: file }
