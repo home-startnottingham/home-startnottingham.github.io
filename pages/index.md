@@ -26,4 +26,4 @@ carousel:
 intro: We're there for parents when they need us the most, because childhood
   can't wait
 ---
-words
+Part of the Home-Start network.
