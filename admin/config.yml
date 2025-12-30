@@ -19,11 +19,11 @@ backend:
 logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 
 # Add site links in DecapCMS (optional)
-site_url: https://home-startnottingham.github.io
+site_url: https://www.home-startnottingham.org.uk
 
 media_folder: "/assets/img"
 public_folder: "/assets/img"
-  
+
 collections:
   - name: "data"
     label: "Data"
@@ -43,7 +43,7 @@ collections:
                 fields:
                   - { label: Text, name: text, widget: string }
                   - { label: Href, name: href, widget: string }
-              
+
       - label: Features
         name: features
         file: "_data/features.yml"
@@ -55,7 +55,7 @@ collections:
               - { label: Statistic, name: statistic, widget: string }
               - { label: Description, name: description, widget: string }
               - { label: Image, name: image, widget: string }
-          
+
       - label: Impact
         name: impact
         file: "_data/impact.yml"
