@@ -29,6 +29,8 @@ url: "https://www.home-startnottingham.github.io" # the base hostname & protocol
 # theme: minima
 include:
   - pages
+  - _reports
+  - _caseStudies
 
 # Exclude from processing.
 # The following items will not be processed, by default.
