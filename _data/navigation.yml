@@ -36,7 +36,7 @@ menu:
   - parent: "About us"
     items:
       - text: "About us"
-        href: "/aboutUs/aboutUs"
+        href: "/aboutUs"
       - text: "Staff"
         href: "/aboutUs/staff"
       - text: "History"
