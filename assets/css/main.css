@@ -1461,7 +1461,7 @@ h1.title {
 
 .staffContainer {
   clear: both;
-  float: left;
+  float: none;
   width: 460px;
   max-width: 460px !important;
 }
@@ -1483,7 +1483,7 @@ h1.title {
 
 table.staffContainer {
   clear: both;
-  float: left;
+  float: none;
   display: table;
   width: 440px;
   max-width: 440px !important;
