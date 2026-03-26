@@ -14,6 +14,12 @@ hasImpact: true
 
 # Annual Accounts and Reports
 
+## 2024/2025
+
+[Annual Accounts 2024/2025](/_reports/accountsAndReports/2024_2025_Accounts.pdf)
+
+[Annual Report 2024/2025](/_reports/accountsAndReports/2024_2025_Annual_Report.pdf)
+
 ## 2023/2024
 
 [Annual Accounts 2023/2024](/_reports/accountsAndReports/2023_2024_Accounts.pdf)
