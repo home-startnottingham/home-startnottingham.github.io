@@ -992,6 +992,10 @@ a.mobileHeaderButton.donate:before {
   color: inherit
 }
 
+.homefeaturecategory-homeboximpactstats td h2 {
+  text-align: center;
+}
+
 .homefeaturecategory-homeboximpactstats table {
   position: relative
 }
