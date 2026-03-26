@@ -2,7 +2,7 @@
 title: Our corporate partners
 layout: default
 permalink: /fundraising/corporatePartners
-pageImage: /assets/img/hs_group_top_img_.jpg
+pageImage: /assets/img/hs_group_top_img.jpg
 hasImpact: true
 ---
 

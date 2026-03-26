@@ -21,7 +21,7 @@ carousel:
       heartbreaking and overwhelming. All parents struggle at one time or
       another. For some, the challenges can be greater. You are not alone.
     linkText: Read More
-    link: /parents/howCanWeSupport.html
+    link: /support/howCanWeSupport.html
     image: /assets/img/hs2.jpg
 intro: We're there for parents when they need us the most, because childhood
   can't wait
