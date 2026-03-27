@@ -9,6 +9,8 @@ menu:
         href: "/support/referrersInfo"
       - text: "Family Mentor Team"
         href: "/support/familyMentorTeam"
+      - text: "Families Info"
+        href: "/support/familiesInfo"
   - parent: "Volunteers"
     items:
       - text: "How to volunteer"
