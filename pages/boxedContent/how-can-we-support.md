@@ -29,6 +29,12 @@ boxedContent:
     image: /assets/img/box-image-4.jpg
     alt: supporting families - Small steps big changes
     text: Home-Start Nottingham delivers the Family Mentor Service as part of the Small Steps, Big  Changes programme.
+
+  - title: Groups
+    link: /support/groups.html
+    image: /assets/img/box-image-5.jpg
+    alt: supporting families - groups
+    text: Home-Start Nottingham offers various groups for children and parents to develop their skills and build social connections.
 ---
 
 Being a parent has never been easy. It can be lonely, frustrating, heartbreaking and overwhelming. All parents struggle at one time or another. For some, the challenges can be greater. You are not alone.
