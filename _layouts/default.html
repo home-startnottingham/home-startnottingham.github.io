@@ -26,8 +26,10 @@
         </div>
       </div>
     {% else %}
-      <div class="introHeader">
+      <div class="{% if page.pageImage and page.pageImage != '' %}introHeaderfollowingImg{% else %}introHeader{% endif %}">
+        {% unless page.pageImage and page.pageImage != "" %}
         <h1 class="title">{{ page.title }}</h1>
+        {% endunless %}
         <div class="introText">
           {{ content }}
         </div>
