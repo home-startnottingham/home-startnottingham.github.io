@@ -1,43 +1,45 @@
+function closeAllSubmenus() {
+  $('.hasSubmenu').removeClass('is-open');
+  $('.submenuToggle').attr('aria-expanded', 'false');
+}
+
 function mobileClickFunction() {
-  if($('.menuMainAlt').hasClass('active')) {
-    // we have clicked the menu to hide the navigation and return button to menu display icon state
-    $('.menuMainAlt').removeClass('active');
+  var $menuButton = $('.menuMainAlt');
+  var isOpen = $menuButton.hasClass('active');
+
+  if (isOpen) {
+    $menuButton.removeClass('active').attr('aria-expanded', 'false');
     $('.headerNavigationContainer').addClass('hideNav');
-    // also close any open submenu items
-    $('#menuNS').removeClass('isActiveNS');
-    $('#menuVOL').removeClass('isActiveVOL');
-    $('#menuFund').removeClass('isActiveFund');
-    $('#menuNews').removeClass('isActiveNews');
-    $('#menuAbout').removeClass('isActiveAbout');
-
-
+    closeAllSubmenus();
   } else {
-    // we have closed the menu bar , hide the navigation and return button to menu display icon state
-    $('.menuMainAlt').addClass('active');
+    $menuButton.addClass('active').attr('aria-expanded', 'true');
     $('.headerNavigationContainer').removeClass('hideNav');
   }
 }
 
-function menuClickFunction(parm) {
-  console.log('xxxxxxxxxxxxxxxxxx ' , parm);
-  var level2idName = '#menu' + parm;
-  var level2ParmName = 'isActive' + parm;
-  //if it is a mobile menu click , expand / contract the level 2 elements
-   if($(level2idName).hasClass(level2ParmName)) {
-     $(level2idName).removeClass(level2ParmName);
-     $(level2idName).addClass('closed');
-     $('#menuNS').removeClass('isActiveNS');
-     $('#menuVOL').removeClass('isActiveVOL');
-     $('#menuFund').removeClass('isActiveFund');
-     $('#menuNews').removeClass('isActiveNews');
-     $('#menuAbout').removeClass('isActiveAbout');
-   } else {
-     $(level2idName).removeClass('closed');
-     $('#menuNS').removeClass('isActiveNS');
-     $('#menuVOL').removeClass('isActiveVOL');
-     $('#menuFund').removeClass('isActiveFund');
-     $('#menuNews').removeClass('isActiveNews');
-     $('#menuAbout').removeClass('isActiveAbout');
-     $(level2idName).addClass(level2ParmName);
-   }
+function menuClickFunction(buttonElement) {
+  if (window.innerWidth > 670) {
+    return;
+  }
+
+  var $button = $(buttonElement);
+  var $menuItem = $button.closest('.hasSubmenu');
+  var willOpen = !$menuItem.hasClass('is-open');
+
+  closeAllSubmenus();
+
+  if (willOpen) {
+    $menuItem.addClass('is-open');
+    $button.attr('aria-expanded', 'true');
+  }
 }
+
+$(function () {
+  $('.menuMainAlt').on('click', function () {
+    mobileClickFunction();
+  });
+
+  $('.submenuToggle').on('click', function () {
+    menuClickFunction(this);
+  });
+});

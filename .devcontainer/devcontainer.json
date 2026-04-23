@@ -19,6 +19,9 @@
 				"openai.chatgpt"
 			]
 		}
+	},
+	"postCreateCommand": {
+		"git": "git config --global --add safe.directory /workspaces/home-startnottingham.github.io"
 	}
 	// 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
