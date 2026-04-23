@@ -15,8 +15,6 @@ We will try to support any family that needs us, as long as they have at least o
 
 Support is usually provided by volunteers who visit you in your own home for approximately 2 hours a week to offer support, friendship and practical assistance.
 
-We run a Drop in on a Thursday morning during term time and arrange courses for parents.
-
 The best way to find out what support from Home-Start Nottingham really means is to read the comments from families quoted throughout this site.
 
 ## Please Note

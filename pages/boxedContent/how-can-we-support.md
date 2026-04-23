@@ -19,7 +19,7 @@ boxedContent:
     text: The main focus of Home-Start Nottingham's work is to offer informal, friendly and confidential support to families in their own homes through carefully selected and prepared volunteers, who are parents themselves
 
   - title: Families Info
-    link: group.html
+    link: /support/familiesInfo.html
     image: /assets/img/box-image-3.jpg
     alt: supporting families - families information
     text: If you are a parent with at least one child under the age of eight then Home-Start Nottingham may be able to help you

@@ -14,7 +14,7 @@ hasImpact: true
 | Assistant Manager	| Marie Sheffield |
 | Business Manager	| Sara Leivers |
 | Co-ordinator	| Gail Tilley |
-| Team Leader - Co-ordinators	| Colleen Smith |
+| Co-ordinator	| Colleen Smith |
 | Co-ordinator	| Cesca Diamond |
 | Co-ordinator	| Catherine Allsopp |
 | Volunteering Development Co-ordinator	| Saffron Bradshaw |
