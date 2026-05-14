@@ -6,7 +6,7 @@
 	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
 	"features": {
 		"ghcr.io/prulloac/devcontainer-features/bun:1": {},
-		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/devcontainers/features/node:2.0.0": {},
 		"ghcr.io/devcontainers/features/ruby": {
 			"version": "latest"
 		}
