@@ -2,7 +2,6 @@
 title: Staff
 layout: default
 permalink: /aboutUs/staff
-pageImage: /assets/img/staff_new.jpg
 hasImpact: true
 ---
 
@@ -11,7 +10,6 @@ hasImpact: true
 | Role	| Name |
 | --- | --- |
 | Chief Executive Officer	| Jamie Wakefield |
-| Assistant Manager	| Marie Sheffield |
 | Business Manager	| Sara Leivers |
 | Co-ordinator	| Gail Tilley |
 | Co-ordinator	| Colleen Smith |
