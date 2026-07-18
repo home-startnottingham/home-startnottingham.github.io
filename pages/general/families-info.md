@@ -1,8 +1,8 @@
 ---
 title: Familes Info
 layout: default
-permalink: /support/familiesInfo
-pageImage: "/assets/img/hs_group_top_img.jpg"
+permalink: /familiesInfo
+pageImage: /assets/img/hs_group_top_img.jpg
 hasImpact: true
 
 ---

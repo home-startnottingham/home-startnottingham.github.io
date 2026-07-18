@@ -1,10 +1,12 @@
 ---
 title: Accounts And Reports
 layout: default
-permalink: /news/accountsAndReports
+permalink: /accountsAndReports
 pageImage: /assets/img/hs_group_top_img.jpg
 hasImpact: true
 ---
+
+Read our most recent strategic review, annual accounts, and annual reports below.
 
 # Strategic Review
 
