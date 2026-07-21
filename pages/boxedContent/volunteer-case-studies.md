@@ -8,25 +8,25 @@ large: false
 boxedContent:
   - title: Patricia's story
     link: /_caseStudies/caseStudy1.pdf
-    image: /assets/img/box-image-7.jpg
+    image: /assets/img/Patricia.jpg
     alt: Volunteers - case studies
     text: To read Patricia's story of why she has volunteered with Home-Start Nottingham for the last 6 years.
 
   - title: Margaret's story
     link: /_caseStudies/caseStudy2.pdf
-    image: /assets/img/box-image-8.jpg
+    image: /assets/img/Margaret.jpg
     alt: Volunteers - case studies
     text: Margaret - Has been a volunteer with us for 30 years, to read more about why she continues volunteering.
     
   - title: Sophie's story
     link: /_caseStudies/caseStudy3.pdf
-    image: /assets/img/box-image-10.jpg
+    image: /assets/img/Sophie.jpg
     alt: Volunteers - case studies
     text: Sophie is a new volunteer, please read to see why she decided to volunteer.
 
   - title: Karen's story
     link: /_caseStudies/caseStudy4.pdf
-    image: /assets/img/box-image-9.jpg
+    image: /assets/img/Karen.jpg
     alt: Volunteers - case studies
     text: Karen was a volunteer and then became a member of staff, find out more.
 ---
