@@ -6,6 +6,13 @@ pageImage: ""
 large: true
 
 boxedContent:
+  - title: "Home Visiting Volunteer"
+    link: "mailto:info@hsn.org.uk?subject=Home Visiting Volunteer Enquiry"
+    image: "/assets/img/home-visiting-volunteer.jpg"
+    alt: "Volunteering - Home Visiting Volunteer"
+    text: "<i>Support Families. Make a Real Difference.</i><br>Become a Home-Start Home Visiting Volunteer and help families grow in confidence, enjoy time with their children, and connect with their communities. You’ll offer regular friendship, practical support, and reassurance in the family home, listening, encouraging, and helping parents develop their strengths and emotional well-being. You’ll also guide families to local services, support them to widen their social networks, and provide a consistent, trusted presence during challenging times.<br>We ask volunteers to complete Home-Start preparation training (group, 1:1, or online), commit to visiting a family weekly for around 2 hours (minimum 1 year), attend ongoing supervision, and approach the role with care, reliability, and non-judgment. Volunteers respect confidentiality, embrace diversity, and bring a positive attitude (and a sense of humour!).<br>In return, you’ll receive regular guidance and supervision from your coordinator, join volunteer support groups and social events, access ongoing training opportunities, have travel costs reimbursed, and make a lasting, meaningful difference to families’ lives."
+    linkText: Click to enquire
+
   - title: "Social media Volunteer"
     link: "mailto:info@hsn.org.uk?subject=Social media Volunteer Enquiry"
     image: "/assets/img/social-volunteer.jpg"
@@ -47,13 +54,6 @@ boxedContent:
     image: "/assets/img/trustee-volunteer.jpg"
     alt: "Volunteering - Trustee Volunteer"
     text: "<i>Help Shape Our Future. Make a Lasting Impact.</i><br>Join the board and help guide Home-Start Nottingham in delivering vital support to local families. As a trustee, you’ll contribute your skills and experience to ensure the charity is well-run, financially stable, and compliant, while safeguarding its values and resources.<br>We’re looking for committed individuals who can attend board meetings, actively contribute ideas, work collaboratively, and uphold high standards of integrity and governance.<br>In return, you’ll have the opportunity to make a real difference for families, receive support and training, and work alongside a dedicated team of staff, volunteers, and trustees."
-    linkText: Click to enquire
-
-  - title: "Home Visiting Volunteer"
-    link: "mailto:info@hsn.org.uk?subject=Home Visiting Volunteer Enquiry"
-    image: "/assets/img/home-visiting-volunteer.jpg"
-    alt: "Volunteering - Home Visiting Volunteer"
-    text: "<i>Support Families. Make a Real Difference.</i><br>Become a Home-Start Home Visiting Volunteer and help families grow in confidence, enjoy time with their children, and connect with their communities. You’ll offer regular friendship, practical support, and reassurance in the family home, listening, encouraging, and helping parents develop their strengths and emotional well-being. You’ll also guide families to local services, support them to widen their social networks, and provide a consistent, trusted presence during challenging times.<br>We ask volunteers to complete Home-Start preparation training (group, 1:1, or online), commit to visiting a family weekly for around 2 hours (minimum 1 year), attend ongoing supervision, and approach the role with care, reliability, and non-judgment. Volunteers respect confidentiality, embrace diversity, and bring a positive attitude (and a sense of humour!).<br>In return, you’ll receive regular guidance and supervision from your coordinator, join volunteer support groups and social events, access ongoing training opportunities, have travel costs reimbursed, and make a lasting, meaningful difference to families’ lives."
     linkText: Click to enquire
 ---
 
