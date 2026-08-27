@@ -11,7 +11,7 @@ hasImpact: true
 | --- | --- |
 | Chief Executive Officer	| Jamie Wakefield |
 | Business Manager	| Sara Leivers |
-| Visiting Team Leader	| Gail Tilley |
+| Home Visiting Team Leader	| Gail Tilley |
 | Co-ordinator	| Colleen Smith |
 | Co-ordinator	| Cesca Diamond |
 | Co-ordinator	| Catherine Allsopp |
