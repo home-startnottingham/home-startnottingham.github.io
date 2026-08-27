@@ -6,6 +6,22 @@ pageImage: ""
 large: true
 
 boxedContent:
+  - title: 2026 Annual Meeting
+    image: /assets/img/Invite_2026.png
+    link: /assets/img/Invite_2026.png
+    alt: 2026 Annual Meeting
+    fill: false
+    text: "If you would like to find out what Home-Start Nottingham has been doing for the past year, please email us on <a href='mailto:info@hsn.org.uk'>info@hsn.org.uk</a> to book a place."
+    linkText: Oct 2026
+
+  - title: Charity Greyhound Racing Night
+    image: /assets/img/greyhound.png
+    link: /assets/img/greyhound.png
+    alt: Charity Greyhound Racing Night
+    fill: false
+    text: "A fun night out raising funds to help make a difference to families.  Tickets are £5 per person (under 18’s are free). Please contact <a href='mailto:info@hsn.org.uk'>info@hsn.org.uk</a> to purchase tickets."
+    linkText: Sept 2026
+
   - title: Run for Home-Start Nottingham
     image: /assets/img/marathon.png
     link: /assets/img/marathon.png
