@@ -12,8 +12,6 @@ hasImpact: true
 | Co-Chair          | Katy Allen         |
 | Treasurer         | Iqra Zafar         |
 | Company Secretary | Sara Leivers       |
-| Trustee           | Annalise Haggar    |
 | Trustee           | Jude Burgess       |
 | Trustee           | Peter Hunt         |
-| Trustee           | Helen Green        |
 {: .staffContainer }
