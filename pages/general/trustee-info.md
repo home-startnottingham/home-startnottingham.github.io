@@ -14,4 +14,5 @@ hasImpact: true
 | Company Secretary | Sara Leivers       |
 | Trustee           | Jude Burgess       |
 | Trustee           | Peter Hunt         |
+| Trustee           | Lesley Bensley     |
 {: .staffContainer }

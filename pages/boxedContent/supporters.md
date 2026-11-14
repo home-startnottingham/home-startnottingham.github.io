@@ -48,6 +48,13 @@ boxedContent:
     alt: Garfield Weston
     text: ""
     fill: false
+
+  - title: ""
+    link: /assets/img/co-op_flyer.jpg
+    image: /assets/img/co-op.png
+    alt: Co-op
+    text: ""
+    fill: false
 ---
 
 Thank you to the many other supporters and individual donors who we cannot name.
