@@ -31,14 +31,14 @@ boxedContent:
   - title: ""
     link: http://www.nottinghamshire.gov.uk/
     image: /assets/img/nccLogo_150.jpg
-    alt: NCC Logo supporters
+    alt: Nottinghamshire County Council
     text: ""
     fill: false
 
   - title: ""
     link: http://www.smallstepsbigchanges.org.uk/
     image: /assets/img/ssbc2-logo.jpg
-    alt: supporters SSBC Small steps big changes
+    alt: SSBC Small steps big changes
     text: ""
     fill: false
 
